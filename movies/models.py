@@ -126,5 +126,5 @@ class Review(models.Model):
         return f'{self.name} - {self.movie}'
     
     class Meta:
-        vebose_name = "Отзыв"
-        vebose_name_plural = "Отзывы"
+        verbose_name = "Отзыв"
+        verbose_name_plural = "Отзывы"
